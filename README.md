@@ -1,5 +1,4 @@
 # Daniel's Portfolio
-Data Science Portfolio Projects
 
 ## [Project 1: K-Means Algorithm for Breast Cancer Data](https://github.com/dani-dr06/BreastCancerProject)
 The purpose of this project is to carry out
