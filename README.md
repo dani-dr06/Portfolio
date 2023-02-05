@@ -5,16 +5,15 @@
 The purpose of this project is to carry out
 a k-means algorithm in Python using Pandas and Numpy to analyze breast cancer data and predict the class of the patient
 (benign cells or malignant cells) based on 9 attributes: 
-* clump thickness, 
-* uniformity of cell size
-* uniformity of cell shape 
-* marginal adhesion
-* single epithelial cell size 
-* bare nuclei 
-* bland
-* chromatin
-* normal nucleoli 
-* mitoses 
+1. Clump Thickness, 
+2. Uniformity of Cell Size
+3. Uniformity of Cell Shape 
+4. Marginal Adhesion
+5. Single Epithelial Cell Size 
+6. Bare Nuclei 
+7. Bland Chromatin
+8. Normal Nucleoli 
+9. Mitoses 
 
 Although it is a fairly simple algorithm with some limitations, it was able to correctly predict the class about 96% of the time.
 
