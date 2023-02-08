@@ -1,5 +1,5 @@
 # Daniel's Portfolio
-## Project 1:
+## [Project 1: Spotify EDA](https://github.com/dani-dr06/SpotifyEDA)
 
 ## [Project 2: K-Means Algorithm for Breast Cancer Data](https://github.com/dani-dr06/BreastCancerProject)
 The purpose of this project is to carry out
