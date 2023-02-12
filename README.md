@@ -18,4 +18,4 @@ a k-means algorithm in Python using Pandas and Numpy to analyze breast cancer da
 Although it is a fairly simple algorithm with some limitations, it was able to correctly predict the class about 96% of the time.
 
 ## [Project 3: Football Transfer Spending for Top 5 Leagues](https://github.com/dani-dr06/FootballProject)
-For this project, I wanted to work on visualization, so I obtained data about transfer fee spending for the top 5 European football leagues (Premier League, LaLiga, Bundesliga, Serie A, Ligue 1), and I created different visualizations using Tableau to convey my findings.
+For this project, I wanted to scrape data from the web and then use that data to work on visualizations, so I obtained data about transfer fee spending for the top 5 European football leagues (Premier League, LaLiga, Bundesliga, Serie A, Ligue 1), and I created different visualizations using Tableau to convey my findings.
