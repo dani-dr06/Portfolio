@@ -1,4 +1,4 @@
-# Projects
+# Daniel's Portfolio Website
 
 ## [Project 1: Spotify EDA](https://github.com/dani-dr06/SpotifyEDA)
 As a guitar player and an avid music lover, I thought it would be interesting to explore what the components of top hit songs are and gain new insights related to the making of top music hits. The purpose of this project is to perform exploratory data analysis on Spotify music data, and later I try to predict song popularity based on the dataset's attributes via linear regression.
