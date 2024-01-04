@@ -3,7 +3,7 @@
 Hello! Welcome to my Portfolio website and thank you for taking the time to check it out!
 
 ## [Project 1: Stock Forecasting](https://github.com/dani-dr06/Stock-forecast)
-Using machine learning to predict stock performances? What could go wrong? In this ongoing project I have used machine learning models, like XGBoost, to predict different big-name stocks' performances, such as Spotify, Netflix, and Apple. My next goal to improve this project and my knowledge is to implement a neural network for this same task and compare performances.
+Using machine learning to predict stock performances? What could go wrong? In this ongoing project I have used machine learning models, like XGBoost, to predict different big-name stocks' performances, such as Spotify, Netflix, and Apple. My next goal to improve this project and my knowledge, through the implementation of a neural network for this same task and compare model performances.
 
 ![](/images/stock.png)
 
