@@ -20,4 +20,4 @@ In this A/B test project, I compare experimental results from a fast food chain 
 
 ## Other Ongoing Projects
 - As I mentioned earlier, I am working on adding more to my stock forecasting project
-- [Scratch-ML](https://github.com/dani-dr06/Scratch-M): this is a long-term project I am starting to work on where I am implementing machine learning models from scratch to test/improve my knowledge of said models
+- [Scratch-ML](https://github.com/dani-dr06/Scratch-ML): this is a long-term project I am starting to work on where I am implementing machine learning models from scratch to test/improve my knowledge of said models
