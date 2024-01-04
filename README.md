@@ -1,29 +1,23 @@
 # Daniel's Portfolio Website
 
-## [Project 1: Spotify EDA](https://github.com/dani-dr06/SpotifyEDA)
-As a guitar player and an avid music lover, I thought it would be interesting to explore what the components of top hit songs are and gain new insights related to the making of top music hits. The purpose of this project is to perform exploratory data analysis on Spotify music data, and later I try to predict song popularity based on the dataset's attributes via linear regression.
+Hello! Welcome to my Portfolio website and thank you for taking the time to check it out!
 
-![](/images/SpotifyLogo.png)
+## [Project 1: Stock Forecasting](https://github.com/dani-dr06/Stock-forecast)
+Using machine learning to predict stock performances? What could go wrong? In this ongoing project I have used machine learning models, like XGBoost, to predict different big-name stocks' performances, such as Spotify, Netflix, and Apple. My next goal to improve this project and my knowledge is to implement a neural network for this same task and compare performances.
 
-## [Project 2: K-Means Algorithm for Breast Cancer Data](https://github.com/dani-dr06/BreastCancerProject)
-The purpose of this project is to carry out
-a k-means algorithm in Python using Pandas and Numpy to analyze breast cancer data and predict the class of the patient
-(benign cells or malignant cells) based on 9 attributes: 
-1. Clump Thickness, 
-2. Uniformity of Cell Size
-3. Uniformity of Cell Shape 
-4. Marginal Adhesion
-5. Single Epithelial Cell Size 
-6. Bare Nuclei 
-7. Bland Chromatin
-8. Normal Nucleoli 
-9. Mitoses 
+![](/images/stock.png)
 
-Although it is a fairly simple algorithm with some limitations, it was able to correctly predict the class about 96% of the time.
+## [Project 2: GameStats - a Video Games Dashboard](https://github.com/dani-dr06/VG-dashboard)
+As a gamer myself, for this project, I carried out an interactive, database-driven video game sales and reviews dashboard using tools such as PyShiny and SQLite. The purpose of this dashboard is to allow the user to understand the data and easily get insights through a visually appealing interface. I have even included a [demo](https://github.com/dani-dr06/VG-dashboard#demo) in my project repo, which you should definitely check out!
 
-![](/images/BreastCancer.png)
+![](/images/vgames.png)
 
-## [Project 3: Football Transfer Spending for Top 5 Leagues](https://github.com/dani-dr06/FootballProject)
-For this project, I wanted to scrape data from the web and then use that data to work on visualizations, so I obtained data about transfer fee spending for the top 5 European football leagues (Premier League, LaLiga, Bundesliga, Serie A, Ligue 1), and I created different visualizations using Tableau to convey my findings.
+## [Project 3: A/B Test for Marketing Campaigns](https://github.com/dani-dr06/ABtesting)
+In this A/B test project, I compare experimental results from a fast food chain seeking to find the marketing campaign that offers the best return when it comes to sales. I first used an ANOVA and then I validated results using a Kruskal-Wallis test (since the data did not come from a normal distribution). Afterwards, I used Tukey's post-hoc test. The results show that the control group and group 3 seem to have performed better, but at the same time there was no statistically significant difference between the means of group 1 (control) and group 3 ... by the way, if you are wondering why the penguin picture, the penguin is trying to choose which of three watches it likes best - kind of like an A/B test.
 
-![](/images/FootballMap.png)
+
+![](/images/ab.png)
+
+## Other Ongoing Projects
+- As I mentioned earlier, I am working on adding more to my stock forecasting project
+- [Scratch-ML](https://github.com/dani-dr06/Scratch-M): this is a long-term project I am starting to work on where I am implementing machine learning models from scratch to test/improve my knowledge of said models
