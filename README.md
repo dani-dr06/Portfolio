@@ -3,7 +3,7 @@
 Hello! Welcome to my Portfolio website and thank you for taking the time to check it out!
 
 ## [Project 1: Stock Forecasting](https://github.com/dani-dr06/Stock-forecast)
-Using machine learning to predict stock performances? What could go wrong? In this ongoing project I have used machine learning models, like XGBoost, to predict different big-name stocks' performances, such as Spotify, Netflix, and Apple. My next goal to improve this project and my knowledge, through the implementation of a neural network for this same task and compare model performances.
+Using machine learning to predict stock performances? What could go wrong? In this project I have used a gradient boosting model to predict different stocks' performances, such as Spotify, Netflix, and Microsoft. The model performs pretty well at its task, at least on historical data! My next goal is to improve this project through the implementation of a neural network for this same task and compare performances. Disclaimer: do not take the model's results as financial advice.
 
 ![](/images/stock.png)
 
@@ -19,5 +19,5 @@ In this A/B test project, I compare experimental results from a fast food chain 
 ![](/images/ab.png)
 
 ## Other Ongoing Projects
-- As I mentioned earlier, I am working on adding more to my stock forecasting project
+- As I mentioned earlier, I am working on improving my stock forecasting project
 - [Scratch-ML](https://github.com/dani-dr06/Scratch-ML): this is a long-term project I am starting to work on where I am implementing machine learning models from scratch to test/improve my knowledge of said models
