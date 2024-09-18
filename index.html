@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- About Me Section -->
+    <section id="about">
+        <div class="about-me">
+            <h1>Daniel's Portfolio</h1>
+            <p>
+                Hello! I'm Daniel, a passionate data science professional who loves programming and finding insights through data. 
+                With experience in Python, data analysis, data visualization, and machine learning, I am constantly pushing myself
+                to learn new skills and technologies.
+                <br><br>
+                Thanks for taking the time to check out my portfolio website!
+            </p>
+        </div>
+
+    </section>
+
+    <!-- Featured Projects Section -->
+    <section id="featured-projects">
+        <h2>Featured Projects</h2>
+        <div class="project-container">
+            <a href="https://github.com/dani-dr06/RAGenerator" target="_blank" class="project">
+                <div class="project-image" style="background-image: url('images/rag.png');"></div>
+                <div class="project-info">
+                    <h3>Retrieval Augmented Generation (RAG)</h3>
+                    <p>Used RAG for the creation of markdown files through LLMs for a static website relating to Virtual Tissue Simulation!</p>
+                    <div class="project-skills">
+                        <span class="skill">Neo4j</span>
+                        <span class="skill">LangChain</span>
+                        <span class="skill">Python</span>
+                        <span class="skill">OOP</span>
+                    </div>
+                </div>
+            </a>
+            <a href="https://github.com/dani-dr06/MuskClassification" target="_blank" class="project">
+                <div class="project-image" style="background-image: url('images/stock.png');"></div>
+                <div class="project-info">
+                    <h3>Musk or Not</h3>
+                    <p>Combined an Autoencoder for dimensionality reduction with an Artificial Neural Network (ANN) to classify molecules as musks or non-musks.</p>
+                    <div class="project-skills">
+                        <span class="skill">TensorFlow</span>
+                        <span class="skill">Classification</span>
+                        <span class="skill">ML</span>
+                    </div>
+                </div>
+            </a>
+            <a href="https://github.com/dani-dr06/VG-dashboard" target="_blank" class="project">
+                <div class="project-image" style="background-image: url('images/vgames.png');"></div>
+                <div class="project-info">
+                    <h3>GameStats</h3>
+                    <p>Created an interactive, database-driven video game sales and reviews dashboard using tools such as PyShiny and SQLite.</p>
+                    <div class="project-skills">
+                        <span class="skill">SQL</span>
+                        <span class="skill">Shiny</span>
+                        <span class="skill">Pandas</span>
+                        <span class="skill">Dashboard</span>
+                    </div>
+                </div>
+            </a>
+        </div>
+    </section>
+
+    <!-- Other Projects Section -->
+    <section id="other-projects">
+        <h2>Other Projects</h2>
+        <input type="text" id="search-input" placeholder="Search by name or skill..." onkeyup="filterProjects()">
+        <div class="other-projects-container">
+            <!-- Example smaller project cards -->
+            <a href="https://github.com/dani-dr06/Portfolio" target="_blank" class="small-project-card" data-tags="front-end development web development">
+                <div>
+                    <h4>Portfolio Website</h4>
+                    <p>This contains the portfolio website you are observing right now!</p>
+                    <div class="project-tags">
+                        <span class="tag">JavaScript</span>
+                        <span class="tag">HTML</span>
+                        <span class="tag">CSS</span>
+                    </div>
+                </div>
+            </a>
+            <a href="https://github.com/dani-dr06/CatDog" target="_blank" class="small-project-card" data-tags="convolutional neural network machine learning">
+                <div>
+                    <h4>CatDog</h4>
+                    <p>Cat and Dog image classification using convolutional neural networks.</p>
+                    <div class="project-tags">
+                        <span class="tag">TensorFlow</span>
+                        <span class="tag">CNN</span>
+                        <span class="tag">ML</span>
+                    </div>
+                </div>
+            </a>
+            <a href="https://github.com/dani-dr06/Stock-forecast" target="_blank" class="small-project-card" data-tags="neural network machine learning">
+                <div>
+                    <h4>Stock Forecasting</h4>
+                    <p>Trained machine learning and deep learning models for stock price forecasting.</p>
+                    <div class="project-tags">
+                        <span class="tag">TensorFlow</span>
+                        <span class="tag">LSTM</span>
+                        <span class="tag">Sklearn</span>
+                    </div>
+                </div>
+            </a>
+            <a href="https://github.com/dani-dr06/ABtesting" target="_blank" class="small-project-card" data-tags="hypothesis testing">
+                <div>
+                    <h4>A/B Test Marketing</h4>
+                    <p>Compared experimental results to find the best marketing campaign.</p>
+                    <div class="project-tags">
+                        <span class="tag">SciPy</span>
+                        <span class="tag">A/B Testing</span>
+                    </div>
+                </div>
+            </a>
+            <a href="" class="small-project-card" data-tags="sports analytics data analysis">
+                <div>
+                    <h4>Premier League Midfielder Analysis</h4>
+                    <p>In Progress...</p>
+                    <div class="project-tags">
+                        <span class="tag">Clustering</span>
+                        <span class="tag">Web Scraping</span>
+                        <span class="tag">Dashboard</span>
+                    </div>
+                </div>
+            </a>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>

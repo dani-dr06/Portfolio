@@ -1,0 +1,180 @@
+/* Basic Styles */
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    background-color: #ffffff;
+}
+
+h1, h2 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+a {
+    text-decoration: none;
+}
+
+/* About Section */
+#about {
+    padding: 50px 20px;
+    background-color: #f8f9fa;
+}
+
+.about-me {
+    max-width: 800px;
+    margin: 0 auto; /* Center about me box*/
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    background-color: #ffffff;
+}
+
+.about-me h1 {
+    font-size: 48px;
+    margin: 0;
+    text-align: center;
+}
+
+.about-me p {
+    text-align: left;
+    font-size: 1.1em;
+    color: #555; 
+    margin: 0;
+}
+
+/* Featured Projects Section */
+#featured-projects {
+    padding: 20px;
+}
+
+#featured-projects h2{
+    text-align: center;
+}
+
+.project-container {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.project {
+    width: 300px;
+    border-radius: 8px;
+    overflow: hidden;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+
+    &:hover {
+        transform: translateY(-5px);
+    }
+}
+
+.project-image {
+    height: 200px;
+    background-size: cover;
+    background-position: center;
+}
+
+.project-info {
+    padding: 10px;
+    background-color: #fff;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.project-info h3 {
+    margin: 0;
+    font-size: 1.2em;
+    color: #007bff;
+}
+
+.project-info p {
+    margin: 10px 0;
+    color: #555;
+    flex-grow: 1;
+}
+
+/* Other Projects Section */
+#other-projects {
+    padding: 20px;
+    background-color: #f8f9fa;
+    text-align: center;
+}
+
+#search-input {
+    padding: 10px;
+    width: 80%;
+    max-width: 400px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.other-projects-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+/* Other Project Cards */
+.small-project-card {
+    width: 200px;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    text-align: left;
+    transition: transform 0.3s ease;
+    cursor: pointer;
+
+    &:hover {
+        transform: translateY(-5px);
+    }
+}
+
+.small-project-card h4 {
+    margin: 0;
+    font-size: 1.1em;
+    color: #007bff;
+}
+
+.small-project-card p {
+    font-size: 0.9em;
+    color: #555;
+}
+
+.project-tags {
+    margin: 10px 0;
+}
+
+.tag {
+    display: inline-block;
+    background-color: #007bff;
+    color: #fff;
+    padding: 3px 7px;
+    margin: 3px 2px 0 0;
+    border-radius: 4px;
+    font-size: 0.75em;
+}
+
+/* Skill Tags */
+.project-skills {
+    margin-top: 10px;
+}
+
+.skill {
+    display: inline-block;
+    background-color: #007bff;
+    color: #fff;
+    padding: 5px 10px;
+    margin: 5px 5px 0 0;
+    border-radius: 4px;
+    font-size: 0.8em;
+}
